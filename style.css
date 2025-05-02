@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+    background-color: #e2dfdf;
+
+}
+
+.top-bar{
+    text-align: center;
+    padding: 5px;
+    background-color:#12a7ec;
+}
+
+.bestseller-book{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.born-crime{
+    align-items: center;
+    display: flex;
+    gap: 80px;
+    line-height: 2;
+    margin-left: 5%;
+
+}
+.born-crime-image{
+    img{margin-top: 10%;
+    box-shadow: 2px 0 10px; }
+}
+
+.about-book p{
+ font-size: 20px;
+ box-shadow: 2px 0 10px;
+ width:60%;
+ height: 40vh;
+ padding: 5%;
+}
+.trevor-mom-image{
+    img{
+     height: 40vh; 
+    }
+}
+blockquote{
+    font-size: 20px;
+}
+.rename-book{
+    align-items: center;
+    display: flex;
+    gap: 80px;
+    line-height: 2;
+    margin-left: 5%;
+
+}
+.Divided-World p{
+    font-size: 20px;
+    box-shadow: 2px 0 10px;
+    padding: 5%;
+    height: 25vh;
+    width: 45%;
+
+
+}
+.trevor-image{
+
+  img{height: 78vh;
+padding-top: 30%;} 
+}
+
+.Divided-World{
+    /* padding-bottom:10% */
+}
+
+
+.blog{
+    display: flex;
+    gap:40px;
+    align-items: center;
+    margin-left: 50px;
+    line-height: 2;
+}
+.individual-blog {
+
+
+}
+.individual-blog p{
+    font-size: 20px;
+    box-shadow: 2px 0 10px;
+    height: 65%;
+    padding: 5%;
+ 
+
+}
+.trevor-image{
+    img{border-radius:18px;
+}
+}
+.cta-button {
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5%;
+    padding: 30px 70px;
+   margin-left: 40%;
+   margin-bottom: 3%;
+  }
+footer{
+    background-color: rgb(47, 55, 56);
+    color:#FFFFFF;
+    padding: 15px 10px;
+    a{
+        color:#ffff;
+        text-decoration: none;
+    }
+}
+
+
+
+#copyright{
+    text-align: center;
+
+}
+@media only screen and (max-width: 750px){
+
+
+
+    body{
+        margin: 0;
+        padding:0;
+        background-color: #e2dfdf;
+     
+    }
+    
+  
+    .top-bar{
+        text-align: center;
+        padding: 5px;
+        background-color:#12a7ec;
+    }
+    
+    .bestseller-book{
+        margin-left: 30px;
+        text-align: center;
+    }
+    
+    .born-crime{
+        align-items: center;
+     flex-direction: column;
+        gap: 80px;
+        line-height: 2;
+        margin-left: 5%;
+    
+    }
+    .born-crime-image{
+        img{margin-top: 10%;
+        box-shadow:none}
+    }
+    
+    .about-book p{
+     font-size: 10px;
+     box-shadow: none;
+     width:100%;
+     height: 0vh;
+     padding: 0%;
+    }
+    .about-book h1{
+        font-size: 12px;
+    }
+    .trevor-mom-image{
+        img{
+         height: 40vh; 
+        }
+    }
+    blockquote{
+        font-size: 10px;
+    }
+    .rename-book{
+        align-items: center;
+        flex-direction: column;
+        gap: 80px;
+        line-height: 2;
+        margin-left: 5%;
+    
+    }
+    .Divided-World p{
+        font-size: 10px;
+        box-shadow: none;
+        padding: 5%;
+        height: 25vh;
+        width: 45%;
+    
+    
+    }
+    .Divided-World h1{
+        font-size:12px ;
+    }
+    .trevor-image{
+    
+      img{height: 78vh;
+    padding-top: 30%;} 
+    }
+    
+    .Divided-World{
+        /* padding-bottom:10% */
+    }
+    
+    
+    .blog{
+        flex-direction: column;
+        gap:40px;
+        align-items: center;
+        margin-left: 50px;
+        line-height: 2;
+    }
+    .individual-blog {
+        flex-direction: column;
+    
+    
+    }
+    .individual-blog p{
+        font-size: 10px;
+        box-shadow: none;
+        width: 100%;
+        padding: 0%;
+     
+    
+    }
+    .individual-blog h1{
+        font-size: 12px;
+    }
+    .trevor-image{
+        img{border-radius:18px;
+    }
+    }
+    .cta-button {
+        background-color: #ffc107;
+        border: none;
+        border-radius: 5%;
+        padding: 10px 20px;
+       margin-left: 40%;
+       margin-bottom: 3%;
+      }
+    footer{
+        background-color: rgb(47, 55, 56);
+        color:#FFFFFF;
+        padding: 15px 10px;
+        a{
+            color:#ffff;
+            text-decoration: none;
+        }
+    }
+    
+    
+    
+
+    #copyright{
+        text-align: center;
+    
+    }
+
+
+}
+   
+
+
+/* @media screen and (max-width: 500px){
+   
+ 
+
+    .information{
+        flex-direction: column;
+        img{
+            width:100%;
+        }
+    }
+    .footer-content{
+      
+        flex-direction: column;
+    }
+    .high-logo{
+        flex-direction: column;
+    }
+    .showcasing-image{
+        width:30px;
+        height:200px;
+    }
+   .logo{
+   
+    gap:0;
+    width:50px;
+   }
+   .high-quality{
+    flex-direction: column;
+    image{width:100%;
+    }
+   }
+  .rasi-array{
+    flex-direction: column;
+  }
+   }
+     */
